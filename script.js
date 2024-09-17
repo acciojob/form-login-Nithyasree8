@@ -1,9 +1,9 @@
 function getFormvalue() {
     //Write your code here
-	const from =doccument.getElementById("from1";
-	const fromData =new FromData(from);
-	const firstName =fromData.get("fname");
-	const lastName =fromData.get("lname");
+	const formm =doccument.getElementById("formm1";
+	const formData =new FormData(form);
+	const firstName =formData.get("fname");
+	const lastName =formData.get("lname");
 	alert(firstName + "" +lastName)
 	
 
