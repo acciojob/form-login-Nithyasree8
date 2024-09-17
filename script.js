@@ -1,6 +1,5 @@
-function getFormvalue() {
-    //Write your code here
-	/ Prevent default form submission behavior
+function getFormvalue(e) {
+    // Prevent default form submission behavior
     e.preventDefault();
 
     // Get the form element
@@ -15,9 +14,4 @@ function getFormvalue() {
 
     // Display full name using alert
     alert(fullName);
-
-}
-
-	
-
 }
